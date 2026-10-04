@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wu Tang Name Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Isometra&family=Lora:ital,wght@0,400..700;1,400..700&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="hero-section">
+      <div class="left-section">
+        <h1>Find your <span> Clan name</span></h1>
+        <p>Answer five questions below. Hit the button. Earn your name.</p>
+      </div>
+
+      <div>
+        <img src="image/clan-seal.png" alt="image" />
+      </div>
+    </section>
+
+    <section class="questions">
+      <h2>THE FIVE QUESTIONS</h2>
+      <!-- Question. 1 -->
+      <section>
+        <div>
+          <span>01</span>
+          <h3>WHAT TIME DO YOU COME ALIVE</h3>
+        </div>
+
+        <!-- Button Wrraper -->
+        <section class="button-wrapper">
+          <button class="option" data-question="time" data-value="sunrise">
+            SunRise
+          </button>
+          <button class="option" data-question="time" data-value="noon">
+            High Noon
+          </button>
+          <button class="option" data-question="time" data-value="midnight">
+            MidNight
+          </button>
+          <button class="option" data-question="time" data-value="neversleep">
+            I Never sleep
+          </button>
+        </section>
+      </section>
+
+      <!-- Question. 2 -->
+      <section>
+        <div>
+          <span>02</span>
+          <h3>Pick your weapon</h3>
+        </div>
+        <section class="button-wrapper">
+          <button class="option" data-question="weapon" data-value="sword">
+            The sword
+          </button>
+          <button class="option" data-question="weapon" data-value="fists">
+            Bare fists
+          </button>
+          <button class="option" data-question="weapon" data-value="mic">
+            The mic
+          </button>
+          <button class="option" data-question="weapon" data-value="mind">
+            Your mind
+          </button>
+        </section>
+      </section>
+
+      <!-- Question. 3 -->
+      <section>
+        <div>
+          <span>03</span>
+          <h3>Choose your spirit animal</h3>
+        </div>
+        <!-- Button Wrraper -->
+        <section class="button-wrapper">
+          <button class="option" data-question="animal" data-value="tiger">
+            Tiger
+          </button>
+          <button class="option" data-question="animal" data-value="snake">
+            Snake
+          </button>
+          <button class="option" data-question="animal" data-value="bird">
+            Bird
+          </button>
+          <button class="option" data-question="animal" data-value="bear">
+            Bear
+          </button>
+        </section>
+      </section>
+      <!-- Question 4  -->
+      <section>
+        <div>
+          <span>04</span>
+          <h3>What is your style?</h3>
+        </div>
+
+        <!-- Button Wrraper -->
+        <section class="button-wrapper">
+          <button class="option" data-question="style" data-value="calmwise">
+            Calm and Wise
+          </button>
+          <button
+            class="option"
+            data-question="style"
+            data-value="loudchaotic"
+          >
+            Loud and Chaotic
+          </button>
+          <button class="option" data-question="style" data-value="smoothcool">
+            Smooth and Cool
+          </button>
+          <button class="option" data-question="style" data-value="leaderpack">
+            Leader of the pack
+          </button>
+        </section>
+      </section>
+
+      <!-- Question 5 -->
+      <section>
+        <div>
+          <span>05</span>
+          <h3>HOW DO YOU HANDLE A CHALLENGE?</h3>
+        </div>
+
+        <!-- Button Wrraper -->
+        <section class="button-wrapper">
+          <button
+            class="option"
+            data-question="challenge"
+            data-value="hitHeadOn"
+          >
+            Hit it Head On
+          </button>
+          <button
+            class="option"
+            data-question="challenge"
+            data-value="outsmartIt"
+          >
+            OutSmart it
+          </button>
+          <button
+            class="option"
+            data-question="challenge"
+            data-value="laughtItOff"
+          >
+            Laught it off
+          </button>
+          <button
+            class="option"
+            data-question="challenge"
+            data-value="waittForMoment"
+          >
+            Wait for the moment
+          </button>
+        </section>
+      </section>
+    </section>
+
+    <div class="wrapper">
+      <button id="reveal">Reveal My Name</button>
+    </div>
+
+    <!-- Result Container -->
+    <section class="result-wrapper">
+      <h1 id="name"></h1>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
