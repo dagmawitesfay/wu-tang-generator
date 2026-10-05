@@ -23,38 +23,7 @@ This project asks the user five questions about their style and personality, the
 
 ![Wu-Tang Name Generator demo](./image/demo.jpg)
 
-## Getting Started
 
-### Prerequisites
-
-- Node.js installed on your machine
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/dagmawitesfay/wu-tang-generator.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd wu-tang-generator
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-### Run the app
-
-```bash
-npm start
-```
-
-Then open your browser to:
-
-```text
-http://localhost:8000
-```
 
 ## How It Works
 
@@ -68,21 +37,6 @@ The app presents questions such as:
 
 Each answer maps to a word bank, and the server randomly selects one word from each category before composing a generated name.
 
-## Project Structure
-
-```text
-wu-tang-generator/
-├── css/
-│   └── style.css
-├── image/
-│   └── clan-seal.png
-├── js/
-│   └── main.js
-├── index.html
-├── package.json
-├── server.js
-└── README.md
-```
 
 
 
