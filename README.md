@@ -1,10 +1,12 @@
 # Wu-Tang Name Generator
 
 A playful web app that creates a custom Wu-Tang-inspired clan name based on five quick personality prompts. 
+https://wu-tang-generator-pvzp.onrender.com/
 
 ## Overview
 
 This project asks the user five questions about their style and personality, then combines answer choices to generate a unique name with a Wu-Tang-inspired vibe. 
+
 ## Features
 
 - Five-question personality quiz
